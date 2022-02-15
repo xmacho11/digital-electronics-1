@@ -10,7 +10,7 @@
 - second in unordered list
 - third in unordered list  
   
-[this is link to google](https://www.google.com/)  
+[this is link](https://github.com/xmacho11/digital-electronics-1)  
 
 | This          | Is            | Table    |
 | ------------- | ------------- | -------- |
