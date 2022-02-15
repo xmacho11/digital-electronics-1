@@ -18,5 +18,14 @@
 | Four          | Five          | Six      |
 
 ```ruby
-System.out.printfln("This is code");
+entity signed_adder is
+  port
+  (
+    aclr  : in  std_logic;
+    clk   : in  std_logic;
+    a     : in  std_logic_vector;
+    b     : in  std_logic_vector;
+    q     : out std_logic_vector
+  );
+end signed_adder;
 ```
