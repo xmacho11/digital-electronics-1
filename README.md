@@ -21,11 +21,9 @@
 entity signed_adder is
   port
   (
-    aclr  : in  std_logic;
-    clk   : in  std_logic;
-    a     : in  std_logic_vector;
-    b     : in  std_logic_vector;
-    q     : out std_logic_vector
+    i      : in  std_logic;
+    am     : in  std_logic;
+    code   : out  std_logic_vector
   );
 end signed_adder;
 ```
