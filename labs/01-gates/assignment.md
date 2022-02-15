@@ -1,4 +1,4 @@
-# Lab 1: Radim Macho
+# Lab 1: Radim Macho 111
 
 ### De Morgan's laws
 
