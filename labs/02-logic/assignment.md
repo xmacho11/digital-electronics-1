@@ -1,4 +1,4 @@
-# Lab 2: YOUR_FIRSTNAME LASTNAMEE
+# Lab 2: Radim Macho
 
 ### 2-bit comparator
 
