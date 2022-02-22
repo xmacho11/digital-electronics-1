@@ -50,7 +50,7 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "0110";
+        s_b <= "0110"; -- test 66
         s_a <= "0110";
         wait for 100 ns;
         -- Expected output
