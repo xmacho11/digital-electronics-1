@@ -1,5 +1,10 @@
 # Lab 3: Radim Macho
 
+### Preparation tasks
+
+1. See schematic or reference manual of the Nexys A7 board and find out the connection of 7-segment displays, ie to which FPGA pins are connected and how. Draw the schematic with 7-segment displays.
+![schematic](pins.png)
+
 ### Three-bit wide 4-to-1 multiplexer
 
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
