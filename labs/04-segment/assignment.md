@@ -84,7 +84,7 @@
         report "Input combination 1011 FAILED" severity error;
         
         s_hex <= "1100"; wait for 50 ns; -- C
-        assert (s_seg = "0011001")
+        assert (s_seg = "0110001")
         report "Input combination 1100 FAILED" severity error;
         
         s_hex <= "1101"; wait for 50 ns; -- d
