@@ -1,5 +1,32 @@
 # Lab 5: Radim Macho
 
+### Preparation tasks
+
+| **clk** | **d** |**q(n)** | **q(n+1)** | **Comments** |
+| :-: | :-: | :-: | :-: | :-: |
+| up | 0 | 0 |  |  |
+| up | 0 | 1 |  |  |
+| up | 1 |  |  |  |
+| up | 1 |  |  |  |
+
+| **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| up | 0 | 0 | 0 | 0 | No change |
+| up | 0 | 0 | 1 | 1 | No change |
+| up | 0 |  |  |  |  |
+| up | 0 |  |  |  |  |
+| up | 1 |  |  |  |  |
+| up | 1 |  |  |  |  |
+| up | 1 |  |  |  |  |
+| up | 1 |  |  |  |  |
+
+| **clk** | **t** |**q(n)** | **q(n+1)** | **Comments** |
+| :-: | :-: | :-: | :-: | :-: |
+| up | 0 | 0 |  |  |
+| up | 0 | 1 |  |  |
+| up | 1 |  |  |  |
+| up | 1 |  |  |  |
+
 ### Flip-flops
 
 1. Listing of VHDL architecture for T-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
