@@ -2,30 +2,33 @@
 
 ### Preparation tasks
 
+**D-type FF**
 | **clk** | **d** |**q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-: |
-| up | 0 | 0 |  |  |
-| up | 0 | 1 |  |  |
-| up | 1 |  |  |  |
-| up | 1 |  |  |  |
+| up | 0 | 0 | 0 | q(n+1) has the same level as d |
+| up | 0 | 1 | 0 | q(n+1) has the same level as d |
+| up | 1 | 0 | 1 | q(n+1) has the same level as d |
+| up | 1 | 1 | 1 | q(n+1) has the same level as d |
 
+**JK-type FF**
 | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | up | 0 | 0 | 0 | 0 | No change |
 | up | 0 | 0 | 1 | 1 | No change |
-| up | 0 |  |  |  |  |
-| up | 0 |  |  |  |  |
-| up | 1 |  |  |  |  |
-| up | 1 |  |  |  |  |
-| up | 1 |  |  |  |  |
-| up | 1 |  |  |  |  |
+| up | 0 | 1 | 0 | 0 | Reset |
+| up | 0 | 1 | 1 | 0 | Reset |
+| up | 1 | 0 | 0 | 1 | Set |
+| up | 1 | 0 | 1 | 1 | Set |
+| up | 1 | 1 | 0 | 1 | Toggle |
+| up | 1 | 1 | 1 | 0 | Toggle |
 
+**T-type FF**
 | **clk** | **t** |**q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-: |
-| up | 0 | 0 |  |  |
-| up | 0 | 1 |  |  |
-| up | 1 |  |  |  |
-| up | 1 |  |  |  |
+| up | 0 | 0 | 0 | No change |
+| up | 0 | 1 | 1 | No change |
+| up | 1 | 0 | 1 | Toggle |
+| up | 1 | 1 | 0 | Toggle |
 
 ### Flip-flops
 
