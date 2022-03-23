@@ -6,7 +6,7 @@
 
    ![your figure](pins.png)
    
-   ![your figure]()
+   ![your figure](WaveDrom.svg)
 
 ### Display driver
 
