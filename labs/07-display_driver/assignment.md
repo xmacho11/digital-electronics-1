@@ -47,7 +47,7 @@
                         s_hex <= data0_i;
                         dp_o  <= dp_i(0);
                         dig_o <= "1110";
-                        end case;
+               end case;
             end if;
         end if;
     end process p_mux;
